@@ -1,0 +1,27 @@
+*{margin: 0;
+padding: 0;
+font-family: 微軟正黑體;}
+
+#card{
+    background-image: url(https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+    background-size: cover;
+    width: 800px;
+    margin: 100px auto 0;
+    padding:50PX 100px 50px;
+}
+#content{
+    padding: 20PX 50px 20px;
+    color:rgba(226, 29, 15, 0.63);
+
+    background-color:rgba(250, 200, 305, 0.63);
+}
+
+footer{
+    text-align: center;
+    letter-spacing: 50px;
+    padding-left: 50PX;
+    color:rgba(32, 25, 25, 0.685);
+    font-size:40PX;
+    margin:25px;
+
+}
