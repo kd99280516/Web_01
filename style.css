@@ -8,7 +8,16 @@ font-family: 微軟正黑體;}
     width: 800px;
     margin: 100px auto 0;
     padding:50PX 100px 50px;
+    box-shadow:0 10px 10px rgba(4, 32, 58, 0.63);
+    transition: 0.5s;
 }
+
+#card:hover{
+    transform:scale(1.2);
+
+}
+
+
 #content{
     padding: 20PX 50px 20px;
     color:rgba(226, 29, 15, 0.63);
@@ -17,11 +26,14 @@ font-family: 微軟正黑體;}
 }
 
 footer{
+    font-size: 40px;
+    letter-spacing: 30px;
+    padding-left: 30px;
+    margin-top: 35px;
     text-align: center;
-    letter-spacing: 50px;
-    padding-left: 50PX;
-    color:rgba(32, 25, 25, 0.685);
-    font-size:40PX;
-    margin:25px;
+    color:rgba(0,0,0,0.2);
+}
 
+body{
+    background-color: #eee;
 }
